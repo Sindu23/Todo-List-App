@@ -1,0 +1,46 @@
+.input {
+    color: #000;
+    background-color: #E3F2FD;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 200px;
+}
+
+.Active-ui li {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f0f0f0;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Active-ui li input[type="checkbox"] {
+    margin-left: 8px; 
+}
+
+.editTodo {
+    color: #000;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.Completed-ul {
+    padding: 0;
+}
+
+.Completed-ul li {
+    background-color: #f0f0f0;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Completed-ul li input[type="checkbox"] {
+    margin-left: 8px; 
+}
